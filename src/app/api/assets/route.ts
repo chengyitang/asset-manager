@@ -58,9 +58,6 @@ export async function GET() {
                     unrealizedPL: 0,
                     marketValue: 0,
                     totalChangePercentage: 0,
-                    unrealizedPL: 0,
-                    marketValue: 0,
-                    totalChangePercentage: 0,
                     weight: 0,
                     currency: t.currency || 'USD', // Initialize with transaction currency
                 };
