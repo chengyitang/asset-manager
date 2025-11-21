@@ -4,7 +4,6 @@ import { useEffect, useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ExternalLink, Newspaper } from "lucide-react"
 import { NewsArticle, NewsResponse } from "@/lib/news"
-import { loadSettings } from "@/lib/settings"
 
 export function FinanceNews() {
     const [news, setNews] = useState<NewsResponse | null>(null)
@@ -13,14 +12,8 @@ export function FinanceNews() {
     useEffect(() => {
         async function fetchNews() {
             try {
-                // Get API key from localStorage
-                const settings = loadSettings()
-                const apiKey = settings.newsApi.apiKey
-
-                // Build URL with API key if available
-                const url = apiKey ? `/api/news?apiKey=${encodeURIComponent(apiKey)}` : '/api/news'
-
-                const response = await fetch(url)
+                // API key is now handled server-side via environment variables
+                const response = await fetch('/api/news')
                 if (response.ok) {
                     const data = await response.json()
                     setNews(data)

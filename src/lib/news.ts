@@ -1,4 +1,4 @@
-import { getNewsApiCredentials } from './settings';
+// News API functions - API key should be passed from environment variables
 
 export interface NewsArticle {
     id: string;

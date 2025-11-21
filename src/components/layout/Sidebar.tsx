@@ -7,7 +7,6 @@ import {
   LayoutDashboard,
   TrendingUp,
   ArrowLeftRight,
-  Settings,
   Coins,
   CreditCard,
   ArrowRightLeft
@@ -45,12 +44,6 @@ const routes = [
     href: "/analytics",
     color: "text-orange-700",
   },
-  {
-    label: "Settings",
-    icon: Settings,
-    href: "/settings",
-  },
-
 ]
 
 interface SidebarProps {
