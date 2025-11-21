@@ -3,6 +3,8 @@
 > 🇹🇼 為台灣留學生和投資人設計的個人資產管理工具  
 > Designed for Taiwanese students and investors managing cross-border portfolios
 
+**🌐 Live Demo**: [https://asset-manager-tw.vercel.app](https://asset-manager-tw.vercel.app)
+
 A modern, full-featured personal asset management application built with Next.js. **Specifically designed for Taiwanese students and investors** who need to track investments across **US and Taiwan stock markets**, along with cryptocurrencies, gold, and cash holdings.
 
 **Primary Focus**: US Stocks (美股) & Taiwan Stocks (台股)
@@ -88,7 +90,7 @@ Perfect for:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/chengyitang/AssetManager.git
+git clone https://github.com/chengyitang/asset-manager.git
 cd assetManager
 ```
 
@@ -222,7 +224,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/chengyitang/AssetManager)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/chengyitang/asset-manager)
 
 1. Click the "Deploy with Vercel" button above
 2. Connect your GitHub account
@@ -351,7 +353,7 @@ Special thanks to the Taiwanese student and investor community for inspiration! 
 
 If you have any questions or run into issues, please:
 1. Check the [Troubleshooting](#-troubleshooting) section
-2. Search existing [GitHub Issues](https://github.com/chengyitang/AssetManager/issues)
+2. Search existing [GitHub Issues](https://github.com/chengyitang/asset-manager/issues)
 3. Create a new issue with detailed information
 
 ---
